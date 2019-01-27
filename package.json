@@ -1,0 +1,39 @@
+{
+  "name": "predicthq-graphql-wrapper",
+  "version": "0.0.1",
+  "description": "predictHQ REST API wrapped with graphQL endpoint",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kairos666/predictHQQL.git"
+  },
+  "keywords": [
+    "rest",
+    "typescript",
+    "graphql"
+  ],
+  "author": "David Maggi <musashi.miyamoto81@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kairos666/predictHQQL/issues"
+  },
+  "homepage": "https://github.com/kairos666/predictHQQL#readme",
+  "devDependencies": {
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "@types/graphql": "^14.0.5",
+    "@types/lodash": "^4.14.120",
+    "apollo-datasource-rest": "^0.2.2",
+    "apollo-server": "^2.3.2",
+    "graphql": "^14.1.1",
+    "lodash": "^4.17.11",
+    "predicthq": "0.0.19"
+  }
+}
